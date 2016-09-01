@@ -28,7 +28,7 @@ def read_roi(fileobj):
 
     class RoiType:
         POLYGON = 0
-        RECT = 1
+        RECT = 8
         OVAL = 2
         LINE = 3
         FREELINE = 4
