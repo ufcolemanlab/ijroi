@@ -1,6 +1,9 @@
 ijroi |Build Status| |Coverage Status| |PyPI page| |MIT license|
 ================================================================
 
+Coleman lab: changed line 31 to 'RECT = 8' to overide error (was getting roireader: ROI type 8 not supported; roi file had 169 squares/rectangles)
+                
+
 Reads `ImageJ <http://imagej.net/Welcome>`__ ROIs into numpy arrays. Use
 it like:
 
